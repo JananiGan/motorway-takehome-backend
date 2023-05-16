@@ -6,23 +6,23 @@ To initialize this project, run `docker compose up` from the root of this projec
 API:
 
 NPM Commands to run locally:
-npm install
-npm start
+- npm install
+- npm start
 
 To run unit tests:
-npm test
+- npm test
 
 To build:
-npm run build
+- npm run build
 
-Example Request:
+Example Request: <br/>
 http://localhost:3000/vehicle/state
 {
     "id":3,
     "timestamp":"2022-09-12 10:00:00+00"
 }
 
-Example Response:
+Example Response:<br/>
 {
     "status": "Success",
     "data": {
